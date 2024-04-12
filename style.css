@@ -15,10 +15,8 @@ p {
 	border: solid;
 	border-radius: 5px;
 	box-shadow: 4px 4px 0px 0px gray;
-	text-align: center;
+	
 }
-
-
 
 a {
   color: white;
@@ -27,6 +25,11 @@ a {
 
 article{
 	box-sizing: border-box;
-	margin: auto;
-	width: 50%;
+	
+}
+
+.center{
+  text-align: center;
+  margin: auto;
+  width: 50%;
 }
