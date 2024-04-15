@@ -3,14 +3,15 @@ body {
 	color: white;
 }
 
-header {
+*{
 	font-family: DotGothic16;
+}
+
+header {
 	font-size: 50px;
-	text-align: center;
 }
 
 p {
-	font-family: DotGothic16;
 	font-size: 40px;
 	border: solid;
 	border-radius: 5px;
@@ -23,13 +24,50 @@ a {
   text-decoration: none;
 }
 
+
 article{
 	box-sizing: border-box;
-	
 }
 
 .center{
   text-align: center;
   margin: auto;
   width: 50%;
+}
+
+.front-title {
+	text-align: center;
+	font-size: 6em;
+	margin-top: 5%;
+}
+
+.frontnav{
+  font-size: 74px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10%;
+  justify-content: center;
+}
+
+.frontnav img {
+	margin: auto 20px;
+}
+
+.front-link {
+	border: solid;
+	border-radius: 5px;
+	box-shadow: 4px 4px 0px 0px gray;
+	width: 400px;
+	margin: 10px 10px;
+}
+
+.front-link:hover {
+	position: relative;
+	top: -4px;
+	left: -4px;
+	box-shadow: 10px 10px 0px 0px gray;
+}
+
+.frontnav a {
+	image-rendering: pixelated;
 }
