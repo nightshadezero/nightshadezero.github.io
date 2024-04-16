@@ -13,22 +13,12 @@ header {
 
 nav{
 	font-size: 48px;
-
 }
 
 nav .navlink {
 	font-size: 0.6em;
 }
 
-/*
-p {
-	font-size: 40px;
-	border: solid;
-	border-radius: 5px;
-	box-shadow: 4px 4px 0px 0px gray;
-	
-}
-*/
 a {
   color: white;
   text-decoration: none;
@@ -37,6 +27,7 @@ a {
 
 article{
 	box-sizing: border-box;
+	
 }
 
 .center{
@@ -76,6 +67,11 @@ article{
 	top: -4px;
 	left: -4px;
 	box-shadow: 10px 10px 0px 0px gray;
+	text-decoration: none;
+}
+
+.front-link a:hover{
+	text-decoration: none;
 }
 
 .frontnav a {
@@ -98,6 +94,42 @@ article{
 	margin: 5% 25%;
 }
 
+.link-list li {
+	margin: auto 40%;
+}
+
+.link-list p{
+	text-align: center;
+}
+
 a:hover{
 	text-decoration: underline;
+}
+
+.blog-post {
+	border: solid;
+	border-radius: 5px;
+	box-shadow: 4px 4px 0px 0px gray;
+	max-width: 800px;
+	font-size: 1.75em;
+	margin: 5% 25%;
+	padding: 1%;
+}
+
+.blog-post h2{
+	text-align: center;
+}
+
+
+
+.blog-post a{
+	color: rgb(60, 104, 185);
+}
+
+.blog-post img {
+ width: 100%;
+}
+
+.blog-post figcaption {
+	font-size: 0.6em;
 }
