@@ -11,6 +11,16 @@ header {
 	font-size: 50px;
 }
 
+nav{
+	font-size: 48px;
+
+}
+
+nav .navlink {
+	font-size: 0.6em;
+}
+
+/*
 p {
 	font-size: 40px;
 	border: solid;
@@ -18,7 +28,7 @@ p {
 	box-shadow: 4px 4px 0px 0px gray;
 	
 }
-
+*/
 a {
   color: white;
   text-decoration: none;
@@ -70,4 +80,24 @@ article{
 
 .frontnav a {
 	image-rendering: pixelated;
+}
+
+.blog-list{
+	font-size: 36px;
+	border: solid;
+	border-radius: 5px;
+	box-shadow: 4px 4px 0px 0px gray;
+	margin: 5% 25%;
+}
+
+.link-list{
+	font-size: 36px;
+	border: solid;
+	border-radius: 5px;
+	box-shadow: 4px 4px 0px 0px gray;
+	margin: 5% 25%;
+}
+
+a:hover{
+	text-decoration: underline;
 }
