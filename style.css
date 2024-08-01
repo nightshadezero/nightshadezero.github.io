@@ -46,8 +46,10 @@ article{
   font-size: 74px;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 10%;
+  flex-direction: column;
+  margin: 5% auto;
   justify-content: center;
+  align-items: center;
 }
 
 .frontnav img {
@@ -112,7 +114,7 @@ a:hover{
 	box-shadow: 4px 4px 0px 0px gray;
 	max-width: 800px;
 	font-size: 1.75em;
-	margin: 5% 25%;
+	margin: 5% auto;
 	padding: 1%;
 }
 
