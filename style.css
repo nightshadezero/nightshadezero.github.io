@@ -85,7 +85,8 @@ article{
 	border: solid;
 	border-radius: 5px;
 	box-shadow: 4px 4px 0px 0px gray;
-	margin: 5% 25%;
+	margin: 5% auto;
+	max-width: 800px;
 }
 
 .link-list{
@@ -93,7 +94,8 @@ article{
 	border: solid;
 	border-radius: 5px;
 	box-shadow: 4px 4px 0px 0px gray;
-	margin: 5% 25%;
+	margin: 5% auto;
+	max-width: 800px;
 }
 
 .link-list li {
