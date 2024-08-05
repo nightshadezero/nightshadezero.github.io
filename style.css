@@ -121,7 +121,7 @@ article{
 	text-align: center;
 }
 
-a:hover{
+.blog-list a:hover{
 	text-decoration: underline;
 }
 
