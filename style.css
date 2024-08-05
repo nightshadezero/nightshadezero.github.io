@@ -17,6 +17,21 @@ nav{
 
 nav .navlink {
 	font-size: 0.6em;
+	border: solid;
+	border-radius: 5px;
+	box-shadow: 4px 4px 0px 0px gray;
+	width: 400px;
+	margin: 5px;
+	padding: 10px;
+	image-rendering: pixelated;
+}
+
+nav .navlink:hover {
+	position: relative;
+	top: -2px;
+	left: -2px;
+	box-shadow: 5px 5px 0px 0px gray;
+	text-decoration: none;
 }
 
 a {
